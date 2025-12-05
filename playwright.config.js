@@ -18,11 +18,14 @@ import { on } from 'events';
 export default defineConfig({
  // testDir: './tests',
    // testDir:'./tests/UI_Test',
-    testDir:'./tests/ZeroBank_Test_PageObject',
+   // testDir:'./tests/ZeroBank_Test_PageObject',
+    //testDir:'./tests/AI_Test',
+
+     testDir:'./tests/API_Test',
     timeout:60000,
   /* Run tests in files in parallel */
   fullyParallel: true,
-  workers:3,
+  workers:1,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */

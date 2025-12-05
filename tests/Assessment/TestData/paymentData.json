@@ -1,0 +1,22 @@
+[
+  {
+    "name": "John Doe",
+    "address": "123 Main Street",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10001",
+    "cardType": "Visa",
+    "cardNumber": "4111111111111111",
+    "nameOnCard": "John Doe"
+  },
+  {
+    "name": "Alice Smith",
+    "address": "456 Market Road",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94104",
+    "cardType": "American Express",
+    "cardNumber": "378282246310005",
+    "nameOnCard": "Alice Smith"
+  }
+]
